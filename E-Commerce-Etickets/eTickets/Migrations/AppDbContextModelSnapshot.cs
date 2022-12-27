@@ -435,7 +435,7 @@ namespace eTickets.Migrations
                 {
                     b.HasOne("eTickets.Models.Actor", "Actor")
                         .WithMany("Actors_Movies")
-                        .HasForeignKey("MovieId")
+                        .HasForeignKey("ActorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
