@@ -69,7 +69,7 @@ namespace eTickets.Migrations
                     table.PrimaryKey("PK_Actors_Movies", x => new { x.ActorId, x.MovieId });
                     table.ForeignKey(
                         name: "FK_Actors_Movies_Actors_MovieId",
-                        column: x => x.MovieId,
+                        column: x => x.ActorId,
                         principalTable: "Actors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
