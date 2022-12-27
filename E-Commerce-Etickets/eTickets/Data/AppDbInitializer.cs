@@ -53,7 +53,7 @@ namespace eTickets.Data
                     context.SaveChanges();
                 }
                 //Actors
-                if (!context.Cinemas.Any())
+                if (!context.Actors.Any())
                 {
                     context.Actors.AddRange(new List<Actor>()
                     {
