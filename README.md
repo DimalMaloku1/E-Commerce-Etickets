@@ -16,7 +16,7 @@ E-Commerce-Etickets is a web application built with ASP.NET MVC and MSSQL techno
 
 - 🔍 Search and Filters: Customers can easily find events based on specific criteria, such as event type, date, location, and more.
 
-# 🔐 **Authentication and Authorization**
+## 🔐 **Authentication and Authorization**
 
 E-Commerce-Etickets implements a robust authentication and authorization system using ASP.NET Identity. This feature ensures secure user registration, login, and password management. Only authenticated users have access to certain functionalities, such as purchasing tickets, accessing order history, and leaving reviews for events.
 
